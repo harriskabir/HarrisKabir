@@ -55,10 +55,12 @@ header h1 {
 }
 
 header p {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     margin-bottom: 3.5rem;
     font-size: 1.25rem;
 }
+
+/*  NAVIGATION   */
 
 nav ul {
     display: flex;
@@ -75,8 +77,48 @@ nav li {
     list-style-type: none;
     background-color: #E8E8E8;
     font-size: 1.75rem;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1.25rem 2.5rem;
+    box-shadow: 0.5rem 0.6rem black;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/*  ABOUT ME AND SKILLS */
+
+main {
+    display: inline-flex;
+    margin: 7.5rem;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.about-me {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-right: 5rem;
+}
+
+.about-me p {
+    font-size: 1.3rem;
+}
+
+.my-skills {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-left: 5rem;
 }
