@@ -200,7 +200,8 @@ nav a:hover {
 main {
     display: flex;
     flex-direction: row;
-    margin: 7.5rem;
+    margin: 5rem 7.5rem 4rem 7.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 8.5rem;
 }
 
@@ -246,6 +247,7 @@ main h2 {
 .faq h2 {
     font-size: 2.5rem;
     text-transform: uppercase;
+    padding-top: 2.5rem;
     margin-bottom: 4rem;
     text-align: center;
 }
@@ -258,7 +260,7 @@ main h2 {
 }
 
 .accordion {
-    margin-bottom: 7.5rem;
+    margin-bottom: 4rem;
     max-width: 50rem;
 }
 
@@ -314,6 +316,7 @@ main h2 {
     text-transform: uppercase;
     margin-bottom: 4rem;
     text-align: center;
+    padding-top: 2.5rem;
 }
 
 form {
