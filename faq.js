@@ -5,3 +5,7 @@ for (i = 0; i < accordion.length; i++) {
         this.classList.toggle('active')
     })
 }
+
+function createAlert() {
+    alert("Coming soon, still in early stages of my career at the moment!")
+}
