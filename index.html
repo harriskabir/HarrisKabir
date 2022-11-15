@@ -55,5 +55,68 @@
                 </div>
             </div>
         </main>
+
+        <div class="faq" id="faq-jump">
+            <h2>FAQ</h2>
+            <div class="accordion">
+                <div class="content-box">
+                    <div class="question">Question One</div>
+                    <div class="answer">
+                        <p>I am a passionate software engineering student from London. 
+                            I'm well rounded and good with technology, 
+                            making me perfect for this industry! 
+                            I speak English, Persian, Russian and Spanish 
+                            therefore I can cater to international clients 
+                            of various backgrounds.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="question">Question One</div>
+                    <div class="answer">
+                        <p>I am a passionate software engineering student from London. 
+                            I'm well rounded and good with technology, 
+                            making me perfect for this industry! 
+                            I speak English, Persian, Russian and Spanish 
+                            therefore I can cater to international clients 
+                            of various backgrounds.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="question">Question One</div>
+                    <div class="answer">
+                        <p>I am a passionate software engineering student from London. 
+                            I'm well rounded and good with technology, 
+                            making me perfect for this industry! 
+                            I speak English, Persian, Russian and Spanish 
+                            therefore I can cater to international clients 
+                            of various backgrounds.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="question">Question One</div>
+                    <div class="answer">
+                        <p>I am a passionate software engineering student from London. 
+                            I'm well rounded and good with technology, 
+                            making me perfect for this industry! 
+                            I speak English, Persian, Russian and Spanish 
+                            therefore I can cater to international clients 
+                            of various backgrounds.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const accordion = document.getElementsByClassName("content-box");
+
+            for (i = 0; i < accordion.length; i++) {
+                accordion[i].addEventListener('click', function() {
+                this.classList.toggle('active')
+                })
+            }
+        </script>
     </body>
 </html>

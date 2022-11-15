@@ -135,3 +135,68 @@ main h2 {
 #skills-icons img {
     width: 6.25rem;
 }
+
+/*   FAQ    */
+
+.faq h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accordion {
+    margin-bottom: 7.5rem;
+    max-width: 50rem;
+}
+
+.accordion .content-box {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.accordion .content-box .question {
+    position: relative;
+    padding: 0.75rem;
+    background-color: #A6A6A6;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.accordion .content-box .question::before {
+    content: "|";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .content-box.active .question::before {
+    content: "_";
+    top: 30%
+}
+
+.accordion .content-box .answer {
+    position: relative;
+    background-color: #E8E8E8;
+    height: 0;
+    overflow: hidden;
+    transition: 0.25s;
+    overflow-y: auto;
+}
+
+.accordion .content-box.active .answer {
+    height: 8rem;
+}
+
+.accordion .content-box .answer p {
+    padding: 0.75rem;
+}
