@@ -38,6 +38,57 @@ h1, h2, h3, p, ul {
     padding: 0;
 }
 
+/*  PRELOADER  */
+
+.preloader-bg {
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.preloader {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 100px);
+}
+
+.preloader:before, .preloader:after {
+    content: "";
+    border: 1rem solid #A6A6A6;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+
+.preloader:before {
+    animation-delay: .5s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
 /* HEADER */
 
 header {
@@ -74,7 +125,7 @@ header h1 {
     font-size: 1.25rem;
     position: relative;
     top: 0;
-    animation: slide 6s steps(4) infinite;
+    animation: slide 6s 2s steps(4) infinite;
 }
 
 @keyframes slide {
@@ -95,7 +146,7 @@ header h1 {
     background: #fff;
     border-left: 2px solid black;
     left: 0;
-    animation: typing 1.5s steps(17) infinite;
+    animation: typing 1.5s 2s steps(17) infinite;
 }
 
 @keyframes typing {

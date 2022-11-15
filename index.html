@@ -9,6 +9,13 @@
     </head>
 
     <body>
+
+        <div class="preloader-bg">
+            <div class="preloader">
+
+            </div>
+        </div>
+
         <header>
             <h1>Harris Kabir</h1>
             <div class="wrapper">
@@ -152,6 +159,13 @@
                 this.classList.toggle('active')
                 })
             }
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function() {
+                $('.preloader-bg').fadeToggle();
+            }, 1500);
         </script>
     </body>
 </html>
