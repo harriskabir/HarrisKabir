@@ -55,10 +55,54 @@ header h1 {
     letter-spacing: 2.5px;
 }
 
-header p {
+.wrapper {
+    display: inline-flex;
+    justify-content: center;
     margin-top: 0.8rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.wrapper .dynamic-texts {
+    margin-left: 15px;
+    line-height: 2rem;
+    height: 1.8rem;
+    overflow: hidden;
+}
+
+.dynamic-texts li {
+    list-style: none;
     font-size: 1.25rem;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -7.8rem;
+    }
+}
+
+.dynamic-texts li span {
+    position: relative;
+}
+
+.dynamic-texts li span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-left: 2px solid black;
+    left: 0;
+    animation: typing 1.5s steps(17) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
 }
 
 /*  NAVIGATION   */
