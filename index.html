@@ -25,7 +25,7 @@
         <main id="about-me-jump">
             <div class="about-me">
                 <h2>About Me</h2>
-                <p>I am a passionate software engineering student from London. 
+                <p>I am an aspiring software engineer from London. 
                     I'm well rounded and good with technology, 
                     making me perfect for this industry! I speak English, Persian,
                     Russian and Spanish therefore I can cater to international clients of 
@@ -109,6 +109,34 @@
                 </div>
             </div>
         </div>
+
+        <div class="contact-form" id="contact-me-jump">
+            <h2>Contact Us</h2>
+            <form action="contact.php">
+                <div class="form">
+                    <div class="name-number">
+                        <div class="contact-requirement">
+                            <label for="full-name">Name</label>
+                            <input id="full-name" name="full-name" type="text" required>
+                        </div>
+                        <div class="contact-requirement">
+                            <label for="phone-number">Phone Number</label>
+                            <input id="phone-number" name="phone-number" type="tel" required>
+                        </div>
+                    </div>
+                    <div class="contact-requirement" id="email-form">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required>
+                    </div>
+                    <div id="contact-message">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
         <script>
             const accordion = document.getElementsByClassName("content-box");
 

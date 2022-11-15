@@ -200,3 +200,84 @@ main h2 {
 .accordion .content-box .answer p {
     padding: 0.75rem;
 }
+
+/*  CONTACT   */
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: #E8E8E8;
+    padding: 2rem;
+    /*   TEMPORARY vvvvv   */
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
+
+form input {
+    width: 12rem;
+    height: 1.5rem;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 27rem;
+}
+
+.name-number {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-number .contact-requirement {
+    margin-right: 2rem;
+}
+
+.contact-requirement {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+#contact-message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+#contact-message textarea {
+    width: 100%;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+#email-form input {
+    width: 100%;
+}
+
+#submit {
+    font-family: "Space Mono";
+    font-weight: 700;
+    background-color: white;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 3rem;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+form label {
+    margin-bottom: 0.25rem;
+}
