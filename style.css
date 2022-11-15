@@ -200,9 +200,10 @@ nav a:hover {
 main {
     display: flex;
     flex-direction: row;
-    margin: 5rem 7.5rem 4rem 7.5rem;
+    margin: 5rem auto 4rem auto;
     padding-top: 2.5rem;
     padding-bottom: 8.5rem;
+    justify-content: center;
 }
 
 main h2 {
@@ -216,7 +217,8 @@ main h2 {
     flex-flow: column wrap;
     text-align: center;
     margin-right: 4rem;
-    width: 50%;
+    width: 35rem;
+    /* width: 50%; */
 }
 
 .about-me p {
@@ -228,7 +230,8 @@ main h2 {
     flex-flow: column wrap;
     text-align: center;
     margin-left: 4rem;
-    width: 50%;
+    width: 30rem;
+    /* width: 50%; */
 }
 
 #skills-icons {
@@ -323,7 +326,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50rem;
+    max-width: 50rem;
     margin: 0 auto;
     background-color: #E8E8E8;
     padding: 2rem;
