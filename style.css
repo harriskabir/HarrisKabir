@@ -488,10 +488,6 @@ form label {
         width: 100%;
     }
 
-    #submit:hover {
-        background-color: white;
-        color: black;
-    }
 }
 
 
