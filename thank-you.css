@@ -145,3 +145,16 @@ main a {
 main a:hover {
     color: white;
 }
+
+
+/*  FOR MOBILE     */
+
+@media only screen and (max-width: 760px) {
+    main {
+        padding-top: 0;
+    }
+
+    main p {
+        margin: 0 1.5rem;
+    }
+}
