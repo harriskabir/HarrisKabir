@@ -455,6 +455,8 @@ form input {
     width: 100%;
     height: 3rem;
     border: 3px solid black;
+    background-color: #fff;
+    color: #000;
     border-radius: 10px;
     cursor: pointer;
     transition: all 1s;
