@@ -156,6 +156,25 @@ header h1 {
     }
 }
 
+/*  TABLET   */
+
+
+@media only screen and (max-width: 1000px) {
+    header {
+        padding-bottom: 0;
+        padding-top: 4rem;
+    }
+}
+
+/*  MOBILE   */
+
+
+@media only screen and (max-width: 760px) {
+    header {
+        padding: 1rem 0;
+    }
+}
+
 /*  NAVIGATION   */
 
 nav ul {
@@ -243,6 +262,52 @@ main h2 {
 #skills-icons img {
     width: 6.25rem;
 }
+
+/*  FOR TABLET     */
+
+@media only screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        margin: 4rem 5rem;
+    }
+
+    .about-me {
+        width: auto;
+    }
+
+    .my-skills {
+        margin-top: 4rem;
+        width: auto;
+    }
+
+    #skills-icons {
+        margin: 0 5rem;
+    }
+}
+
+
+/*  FOR MOBILE     */
+
+@media only screen and (max-width: 760px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 1.5rem;
+        padding-top: 3rem;
+        flex-wrap: nowrap;
+        padding-bottom: 0;
+    }
+
+    .about-me {
+        width: auto;
+    }
+
+    .my-skills {
+        width: auto;
+        padding-top: 4rem;
+    }
+}
+
 
 /*   FAQ    */
 
@@ -399,6 +464,25 @@ form input {
 form label {
     margin-bottom: 0.25rem;
 }
+
+@media only screen and (max-width: 760px) {
+    .name-number {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 18rem;
+    }
+    .name-number .contact-requirement {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+    }
+}
+
 
 .disclaimer {
     background-color: #A6A6A6;
