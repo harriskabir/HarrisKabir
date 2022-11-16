@@ -448,7 +448,7 @@ form input {
     width: 100%;
 }
 
-.contact-form .form button {
+.submit-button {
     font-family: "Space Mono";
     font-weight: 700;
     margin-top: 0.5rem;
@@ -462,7 +462,7 @@ form input {
     transition: all 1s;
 }
 
-.contact-form .form button:hover {
+.submit-button:hover {
     background-color: black;
     color: white;
 }
