@@ -461,7 +461,7 @@ form input {
     transition: all 1s;
 }
 
-button:hover {
+.contact-form .form button:hover {
     background-color: black;
     color: white;
 }
