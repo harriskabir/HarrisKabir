@@ -306,6 +306,10 @@ main h2 {
         width: auto;
         padding-top: 4rem;
     }
+
+    #skills-icons {
+        margin: 0;
+    }
 }
 
 
