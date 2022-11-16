@@ -497,6 +497,7 @@ form label {
         height: 3rem;
         border: 3px solid black;
         border-radius: 10px;
+        transition: none;
     }
     
     button:hover {
