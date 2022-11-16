@@ -448,7 +448,7 @@ form input {
     width: 100%;
 }
 
-button {
+.contact-form .form button {
     font-family: "Space Mono";
     font-weight: 700;
     background-color: white;
