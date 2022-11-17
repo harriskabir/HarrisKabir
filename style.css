@@ -348,6 +348,7 @@ main h2 {
     font-weight: 700;
     cursor: pointer;
     border-radius: 2px;
+    letter-spacing: 0.0625rem;
 }
 
 .accordion .content-box .question::before {
