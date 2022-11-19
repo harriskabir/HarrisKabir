@@ -3,7 +3,7 @@
 <html>
     <head>
         <link rel="shortcut icon" href="images/logo-hk.png" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="./style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Harris Kabir</title>
     </head>
@@ -29,7 +29,7 @@
             <nav>
                 <ul class="nav-desktop">
                     <li><a href="#about-me-jump">About Me</a></li>
-                    <li><a href="#projects-jump">Projects</a></li>
+                    <li><a onclick="alert('Coming soon, still in early stages of my career at the moment!')" >Projects</a></li>
                     <li><a href="#faq-jump">FAQ</a></li>
                     <li><a href="#contact-me-jump">Contact Me</a></li>
                 </ul>
@@ -68,22 +68,6 @@
                 </div>
             </div>
         </main>
-
-        <div class="projects" id="projects-jump">
-            <h2>Projects</h2>
-            <div id="projects-container">
-                <div class="project-box">
-                    <a href="quiz/quiz.html" target="_blank"><img src="images/quiz.png"></a>
-                    <a href="quiz/quiz.html" target="_blank"><h3>World Quiz</h3></a>
-                </div>
-                <!-- 
-                <div class="project-box">
-                    <img src="images/logo-hk.png">
-                    <h3>World Quiz</h3>
-                </div>
-                -->
-            </div>
-        </div>
 
         <div class="faq" id="faq-jump">
             <h2>FAQ</h2>
@@ -140,10 +124,7 @@
 
         <div class="contact-form" id="contact-me-jump">
             <h2>Contact Me</h2>
-            
-            <form action="contact-form.php" method="POST">
-
-            <!-- <form action="https://formsubmit.co/bb257e0f8b8c723257e1ebe1201991a8" method="POST"> -->
+            <form action="https://formsubmit.co/d3f58336c90c42bf4ef9975ada416fdb" method="POST">
                 <div class="form">
                     <div class="name-number">
                         <div class="contact-requirement">
@@ -164,10 +145,8 @@
                         <textarea id="message" name="message" required></textarea>
                     </div>
                     <button class="submit-button" type="submit">Submit</button>
-                    <!--
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://harriskabir.com/thanks">
-                    -->
+                    <input type="hidden" name="_next" value="https://harriskabir.github.io/thanks">
                 </div>
             </form>
         </div>

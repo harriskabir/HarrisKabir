@@ -313,75 +313,13 @@ main h2 {
     }
 }
 
-/*  PROJECTS  */
-
-.projects h2 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    padding-top: 2.5rem;
-    margin-bottom: 4rem;
-    text-align: center;
-}
-
-.projects {
-    display: flex;
-    flex-direction: column;
-}
-
-#projects-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-.project-box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 1rem 3rem;
-    margin: 0 auto;
-}
-
-.project-box h3 {
-    margin-top: 1.5rem;
-    color: #000;
-    font-size: 1.5rem;
-    transition: all .5s;
-}
-
-.project-box a {
-    text-decoration: none;
-}
-
-.project-box h3:hover {
-    color:#6e6e6e;
-    translate: 0 -.25rem;
-    text-decoration: underline;
-}
-
-.project-box img {
-    max-width: 28rem;
-    border-radius: 10px;
-    transition: all .5s;
-}
-
-.project-box img:hover {
-    translate: 0 -.25rem;
-}
-
-@media only screen and (max-width: 760px) {
-    .project-box img {
-        max-width: 19rem;
-    }
-}
 
 /*   FAQ    */
 
 .faq h2 {
     font-size: 2.5rem;
     text-transform: uppercase;
-    padding-top: 9rem;
+    padding-top: 2.5rem;
     margin-bottom: 4rem;
     text-align: center;
 }
@@ -406,7 +344,7 @@ main h2 {
 .accordion .content-box .question {
     position: relative;
     padding: 0.75rem;
-    background-color: #E8E8E8;
+    background-color: #A6A6A6;
     font-weight: 700;
     cursor: pointer;
     border-radius: 2px;
@@ -432,13 +370,12 @@ main h2 {
     background-color: #E8E8E8;
     height: 0;
     overflow: hidden;
-    transition: height 0.25s;
+    transition: 0.25s;
     overflow-y: auto;
 }
 
 .accordion .content-box.active .answer {
     height: 11rem;
-    border-top: 1px solid black;
 }
 
 .accordion .content-box .answer p {
@@ -562,7 +499,7 @@ form label {
 
 
 .disclaimer {
-    background-color: #E8E8E8;
+    background-color: #A6A6A6;
     text-align: center;
     padding: 0.5rem 0;
 }
